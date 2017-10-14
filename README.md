@@ -30,7 +30,7 @@ b)	能够为客户办理结账、退还押金、退房手续。<br/>
 c)	能够进行月季度或年营业额的查询。<br/>
 d)	查询并管理客户信息，对用户信息进行维护。<br/>
 e)	能够管理订单，对订单进行查询，删除操作。<br/>
-f)	能够管理房间，能添加房间，更新房间信息，删除房间。
+f)	能够管理房间，能添加房间，更新房间信息，删除房间。</br>
 </br>
 <p>3.  性能分析</p>
 （1）在网络性能良好的前提下，能3秒内响应用户需求。<br/>
@@ -40,12 +40,12 @@ f)	能够管理房间，能添加房间，更新房间信息，删除房间。
 <p></br>4.    项目分析</p>
 <p>用例图：</p>
   <p>描述了管理员和用户的基本操作。</p>
-  ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/3.png)</br>
-  <p>ER图：
+  <p>![image](https://github.com/Cassiexyq/NIIT/blob/master/image/3.png)
+  </p><p>ER图：
 </p><p>  将“用户”，“房间”，“订单”作为实体，“浏览”，“生成/查看”作为联系，得到用户与房间及订单之间的局部ER图。
 </p>
  ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/4.png)
-<p> 5.    小组成员</p>
+<p></br> 5.    小组成员</p>
 Java01 宣益清   https://github.com/Cassiexyq/NIIT   (作为主维护者)</br>
 Java02 何幸松</br>
 Java01 吕明玥   https://github.com/173737114/2014-S7-Java0102  </br>
