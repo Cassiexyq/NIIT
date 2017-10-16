@@ -12,7 +12,10 @@
 <p>(一)	普通用户预定系统：</p>
 <p>普通用户注册登录进入酒店主页，根据房间的类型，查询酒店的房间信息，并在网上完成房间的预定。用户预定房间成功后可以生成订单信息，对已生成的订单进行查询，修改和删除操作。
 </p>
- ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/1.png?raw=true)</br>
+
+ ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/1.png)
+ 
+ </br>
 <p>a)  浏览房间，查询房间的相关信息如房间类型、房间容量、房间配置等。</br>
 b)	用户可以自定义房间的要求查询是否有满足条件的房间。</br>
 c)	用户在已选择入住时间和退房时间情况下可以线上办理延房。</br>
@@ -24,7 +27,9 @@ g)	管理个人信息，可以修改密码等。
 <p>(二)管理员管理系统：</p>
 <p>管理员根据在网上进行预定过的用户提供姓名查询对应订单信息，进行入住登记，等到用户离房后，确定退房登记，结算账单。另外，管理员可以增加删除房间信息，对网上注册过的用户信息可以进行查询、修改、增加、删除的操作，还能够查询每年或每月或季度的营业额情况。
 </p>
-   ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/2.png?raw=true)</br>
+
+   ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/2.png)
+ 
 <p>a)   能够为客户办理接待入住手续。<br/>
 b)	能够为客户办理结账、退还押金、退房手续。<br/>
 c)	能够进行月季度或年营业额的查询。<br/>
@@ -40,13 +45,16 @@ f)	能够管理房间，能添加房间，更新房间信息，删除房间。</
 <p></br>4.    项目分析</p>
 <p>用例图：</p>
   <p>描述了管理员和用户的基本操作。</p>
-  <p>![image](https://github.com/Cassiexyq/NIIT/blob/master/image/3.png?raw=true)
+  
+  ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/3.png)
+  
   </p><p>ER图：
 </p><p>  将“用户”，“房间”，“订单”作为实体，“浏览”，“生成/查看”作为联系，得到用户与房间及订单之间的局部ER图。
 </p>
- ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/4.png?raw=true)
+
+ ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/4.png)
+ 
 <p></br> 5.    小组成员</p>
 Java01 宣益清   https://github.com/Cassiexyq/NIIT   (作为主维护者)</br>
-Java02 何幸松</br>
 Java01 吕明玥   https://github.com/173737114/2014-S7-Java0102  </br>
 Java05 成一田 https://github.com/QiTianDash </br>
