@@ -56,7 +56,7 @@ f)	能够管理房间，能添加房间，更新房间信息，删除房间。</
  
 <p></br> 5.    小组成员</p>
 Java01 宣益清   https://github.com/Cassiexyq/NIIT   (作为主维护者)</br>
-Java01 于洲    https://github.com/github </br>
+Java01 于洲    https://github.com/users/Universe19 </br>
 Java01 吕明玥   https://github.com/173737114/2014-S7-Java0102  </br>
 Java05 成一田 https://github.com/QiTianDash </br>
 
