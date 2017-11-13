@@ -108,32 +108,11 @@
   					<input type="text" placeholder="Wtel" name="Gid">
   					地址
   					<select class="Gaddress" name="Gaddress">
-    					<option>A市</option>
-    					<option>B市</option>
-    					<option>C市</option>
-    					<option>D市</option>
-    					<option>E市</option>
-    					<option>F市</option>
-    					<option>G市</option>
-    					<option>H市</option>
-    					<option>I市</option>
-    					<option>J市</option>
-    					<option>K市</option>
-    					<option>L市</option>
-    					<option>M市</option>
-    					<option>N市</option>
-    					<option>O市</option>
-    					<option>P市</option>
-    					<option>Q市</option>
-    					<option>R市</option>
-    					<option>S市</option>
-    					<option>T市</option>
-    					<option>U市</option>
-    					<option>V市</option>
-    					<option>W市</option>
-    					<option>X市</option>
-    					<option>Y市</option>
-    					<option>Z市</option>
+    					<option>青岛市</option>
+    					<option>莱西市</option>
+    					<option>济南市</option>
+			                <option>潍坊市</option>
+    		
   					</select>
 					<input type="submit" value="确定">
 			</form>
