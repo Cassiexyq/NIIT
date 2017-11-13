@@ -60,3 +60,11 @@ Java01 于洲    https://github.com/Universe19/NIIT </br>
 Java01 吕明玥   https://github.com/173737114/NIIT  </br>
 Java05 成一田 https://github.com/QiTianDash/NIIT </br>
 
+<p>
+6.项目进度（第二次评估）</p>
+ <p>
+宣益清：主页界面设计和框架整合</br>
+于洲：用户登录注册界面设计</br>
+成一田：管理员登录注册界面设计</br>
+吕明玥：数据库设计，表的建立和数据插入</br>
+</p>
