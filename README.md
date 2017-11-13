@@ -54,14 +54,19 @@ f)	能够管理房间，能添加房间，更新房间信息，删除房间。</
 
  ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/4.png)
  
-<p></br> 5.    小组成员</p>
-Java01 宣益清   https://github.com/Cassiexyq/NIIT   (作为主维护者)</br>
+<p></br> 5.    小组成员</p><p>
+Java01 宣益清   https://github.com/Cassiexyq/NIIT   (作为主维护者)</br>
 Java01 于洲    https://github.com/Universe19/NIIT </br>
 Java01 吕明玥   https://github.com/173737114/NIIT  </br>
 Java05 成一田 https://github.com/QiTianDash/NIIT </br>
-
+</p>
+<p>6.小组分工</p>
+宣益清：框架整合，实现数据库优化，管理员查询营业额功能，显示用户浏览记录，优化代码。</br>
+于洲：普通用户预订系统实现登录注册及自定义订房功能模块。</br>
+成一田：管理员用户系统实现登录注册、管理订单及房间功能模块。</br>
+吕明玥：数据库的创建，各个表的设计（数据维护）。</br>
 <p>
-6.项目进度（第二次评估）</p>
+7.项目进度（第二次评估）</p>
  <p>
 宣益清：主页界面设计和框架整合</br>
 于洲：用户登录注册界面设计</br>
