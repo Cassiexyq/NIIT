@@ -1,0 +1,5 @@
+系统采用SSH+MYSQL
+数据库配置文件hibernate.cfg.xml
+测试账号
+
+admin 密码111111
