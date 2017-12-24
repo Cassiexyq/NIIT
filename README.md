@@ -7,13 +7,17 @@
 </p>
 
 <p>2.  项目需求</p>
+<p>本项目整体结构设计图</p>
+
+ ![image](https://github.com/Cassiexyq/NIIT/blob/master/UML/系统结构图.jpg)
+ </br>
 <p>根据提供管理员和普通用户两种权限，分为普通用户预定系统和管理员管理系统两个模块。
 </p>
 <p>(一)	普通用户预定系统：</p>
-<p>普通用户注册登录进入酒店主页，根据房间的类型，查询酒店的房间信息，并在网上完成房间的预定。用户预定房间成功后可以生成订单信息，对已生成的订单进行查询，修改和删除操作。
+<p>未有账号的用户可进行注册操作，注册登陆后主要功能有系统密码、客房预定以及预定记录查询。普通用户注册登录进入酒店主页，选择房间的类型，查询酒店的房间信息，并在网上完成房间的预定。用户预定房间成功后可以生成订单信息，对已生成的订单进行查询和取消操作。
 </p>
 
- ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/1.png)
+ ![image](https://github.com/Cassiexyq/NIIT/blob/master/UML/用户操作流程.jpg)
  
  </br>
 <p>a)  浏览房间，查询房间的相关信息如房间类型、房间容量、房间配置等。</br>
@@ -25,10 +29,10 @@ f)	在个人信息中能够显示用户曾经预定过的房间订单。</br>
 g)	管理个人信息，可以修改密码等。
 </br></p>
 <p>(二)管理员管理系统：</p>
-<p>管理员根据在网上进行预定过的用户提供姓名查询对应订单信息，进行入住登记，等到用户离房后，确定退房登记，结算账单。另外，管理员可以增加删除房间信息，对网上注册过的用户信息可以进行查询、修改、增加、删除的操作，还能够查询每年或每月或季度的营业额情况。
+<p>管理员登录后可进行用户管理、客房信息管理、开房管理、退房管理、开房记录查询以及预订记录查询等。管理员操作流程如图所示。管理员查询预定订单信息，进行入住操作，等到用户离房后，确定退房登记，结算账单。另外，管理员可以增加删除修改房间，对网上注册过的用户信息可以进行查询、修改、增加、删除的操作。
 </p>
 
-   ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/2.png)
+   ![image](https://github.com/Cassiexyq/NIIT/blob/master/UML/管理员操作流程.jpg)
  
 <p>a)   能够为客户办理接待入住手续。<br/>
 b)	能够为客户办理结账、退还押金、退房手续。<br/>
@@ -42,17 +46,26 @@ f)	能够管理房间，能添加房间，更新房间信息，删除房间。</
 （2）为保证数据实时性，每隔5秒刷新一次页面。<br/>
 （3）能够解决高并发的数据读写问题，利用索引优化数据库结构，使用缓存技术减少与数据库的交互提高性能。</br>
 （4）能方便进行二次开发操作，满足对功能的扩充和提高。</br>
-<p></br>4.    项目分析</p>
-<p>用例图：</p>
-  <p>描述了管理员和用户的基本操作。</p>
-  
-  ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/3.png)
-  
-  </p><p>ER图：
-</p><p>  将“用户”，“房间”，“订单”作为实体，“浏览”，“生成/查看”作为联系，得到用户与房间及订单之间的局部ER图。
-</p>
+<p></br>4.    项目分析</p>
+<p>系统UML用例如图所示</p>
 
- ![image](https://github.com/Cassiexyq/NIIT/blob/master/image/4.png)
+ ![image](https://github.com/Cassiexyq/NIIT/blob/master/UML/系统UML用例图.jpg)
+ 
+<p>登陆顺序图：</p>
+  
+  ![image](https://github.com/Cassiexyq/NIIT/blob/master/UML/登陆顺序图.jpg)
+  
+<p>注册顺序图：</p>
+  
+  ![image](https://github.com/Cassiexyq/NIIT/blob/master/UML/注册顺序图.jpg)
+  
+<p>修改密码顺序图：</p>
+  
+  ![image](https://github.com/Cassiexyq/NIIT/blob/master/UML/修改密码顺序图.jpg)
+
+<p>预定房间顺序图：</p>
+  
+  ![image](https://github.com/Cassiexyq/NIIT/blob/master/UML/房间预定顺序图.jpg)
  
 <p></br> 5.    小组成员</p><p>
 Java01 宣益清   https://github.com/Cassiexyq/NIIT   (作为主维护者)</br>
