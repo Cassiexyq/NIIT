@@ -78,3 +78,8 @@ Java05 成一田 https://github.com/QiTianDash/NIIT </br>
 成一田：系统登陆界面，管理员客房分类管理功能。</br>
 吕明玥：数据库的创建和数据插入，管理员用户管理。</br>
 </p><p>
+ 
+ <p>
+ 7.测试账号： 管理员  admin  111111</br>
+     用户  Cassie  121212
+</p>
