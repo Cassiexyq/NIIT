@@ -8,7 +8,7 @@ public class Waiter {
 	public String getWno() {
 		return Wno;
 	}
-	public void setWno(String wno) {
+	public void setWno(String wno) { 
 		Wno = wno;
 	}
 	public String getWname() {

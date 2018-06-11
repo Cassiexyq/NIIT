@@ -35,7 +35,7 @@ public class Room {
 	}
 	public void setRout(String rout) {
 		Rout = rout;
-	}
+	} 
 	public String getRno() {
 		return Rno;
 	}

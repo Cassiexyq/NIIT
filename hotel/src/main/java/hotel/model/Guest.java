@@ -34,7 +34,7 @@ public class Guest {
 	public void setGsex(String gsex) {
 		Gsex = gsex;
 	}
-	public String getGtel() {
+	public String getGtel() { 
 		return Gtel;
 	}
 	public void setGtel(String gtel) {
